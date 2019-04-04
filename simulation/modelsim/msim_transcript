@@ -1,0 +1,131 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do hps_fpga_1_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work gate_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {hps_fpga_1.vho}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:36:17 on Nov 01,2018
+# vcom -reportprogress 300 -93 -work work hps_fpga_1.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity DE1_SoC_Computer
+# -- Compiling architecture structure of DE1_SoC_Computer
+# ** Error (suppressible): hps_fpga_1.vho(14241): (vcom-1141) Identifier "cyclonev_hps_interface_clocks_resets" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(14257): (vcom-1141) Identifier "cyclonev_hps_interface_hps2fpga" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(84617): (vcom-1141) Identifier "cyclonev_hps_sdram_pll" does not identify a component declaration.
+# ** Error: hps_fpga_1.vho(84633): (vcom-1484) Unknown formal identifier "upndnout_mode".
+# ** Error: hps_fpga_1.vho(84633): (vcom-1484) Unknown formal identifier "upndnout_mode".
+# ** Error (suppressible): hps_fpga_1.vho(84668): (vcom-1141) Identifier "cyclonev_hmc" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85152): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85255): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85345): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85435): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85525): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85615): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85705): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85795): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(85913): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86016): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86106): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86196): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86286): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86376): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86466): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86556): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86699): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86802): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86892): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(86982): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87072): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87162): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87252): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87342): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87460): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87563): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87653): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87743): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87833): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(87923): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(88013): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(88103): (vcom-1141) Identifier "cyclonev_read_fifo_read_clock_select" does not identify a component declaration.
+# ** Error: hps_fpga_1.vho(88189): (vcom-1484) Unknown formal identifier "m_hphy_ac_rom_content".
+# ** Error: hps_fpga_1.vho(88191): (vcom-1484) Unknown formal identifier "m_hphy_inst_rom_content".
+# ** Error: hps_fpga_1.vho(88189): (vcom-1484) Unknown formal identifier "m_hphy_ac_rom_content".
+# ** Error: hps_fpga_1.vho(88191): (vcom-1484) Unknown formal identifier "m_hphy_inst_rom_content".
+# ** Error (suppressible): hps_fpga_1.vho(88332): (vcom-1141) Identifier "cyclonev_lfifo" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(88387): (vcom-1141) Identifier "cyclonev_lfifo" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(88442): (vcom-1141) Identifier "cyclonev_lfifo" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(88497): (vcom-1141) Identifier "cyclonev_lfifo" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(88572): (vcom-1141) Identifier "cyclonev_vfifo" does not identify a component declaration.
+# ** Error: hps_fpga_1.vho(88602): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(88602): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(88644): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(88645): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(88644): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(88645): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(88654): (vcom-1484) Unknown formal identifier "dqsdisablen".
+# ** Error (suppressible): hps_fpga_1.vho(88754): (vcom-1141) Identifier "cyclonev_vfifo" does not identify a component declaration.
+# ** Error: hps_fpga_1.vho(88784): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(88784): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(88826): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(88827): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(88826): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(88827): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(88836): (vcom-1484) Unknown formal identifier "dqsdisablen".
+# ** Error (suppressible): hps_fpga_1.vho(88936): (vcom-1141) Identifier "cyclonev_vfifo" does not identify a component declaration.
+# ** Error: hps_fpga_1.vho(88966): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(88966): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(89008): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(89009): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(89008): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(89009): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(89018): (vcom-1484) Unknown formal identifier "dqsdisablen".
+# ** Error (suppressible): hps_fpga_1.vho(89118): (vcom-1141) Identifier "cyclonev_vfifo" does not identify a component declaration.
+# ** Error: hps_fpga_1.vho(89148): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(89148): (vcom-1484) Unknown formal identifier "delay_dqs_enable".
+# ** Error: hps_fpga_1.vho(89190): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(89191): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(89190): (vcom-1484) Unknown formal identifier "dqs_delay_chain_bypass".
+# ** Error: hps_fpga_1.vho(89191): (vcom-1484) Unknown formal identifier "dqs_delay_chain_test_mode".
+# ** Error: hps_fpga_1.vho(89200): (vcom-1484) Unknown formal identifier "dqsdisablen".
+# ** Error: hps_fpga_1.vho(89371): (vcom-1484) Unknown formal identifier "clkusrdftout".
+# ** Error (suppressible): hps_fpga_1.vho(94724): (vcom-1141) Identifier "cyclonev_hps_peripheral_spi_master" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(94814): (vcom-1141) Identifier "cyclonev_hps_peripheral_emac" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(94876): (vcom-1141) Identifier "cyclonev_hps_peripheral_qspi" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(94950): (vcom-1141) Identifier "cyclonev_hps_peripheral_sdmmc" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(95087): (vcom-1141) Identifier "cyclonev_hps_peripheral_usb" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(95124): (vcom-1141) Identifier "cyclonev_hps_peripheral_i2c" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(95158): (vcom-1141) Identifier "cyclonev_hps_peripheral_i2c" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(95258): (vcom-1141) Identifier "cyclonev_hps_peripheral_gpio" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(96907): (vcom-1141) Identifier "cyclonev_hps_peripheral_uart" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(96918): (vcom-1141) Identifier "cyclonev_hps_interface_dbg_apb" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(96929): (vcom-1141) Identifier "cyclonev_hps_interface_tpiu_trace" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(96935): (vcom-1141) Identifier "cyclonev_hps_interface_boot_from_fpga" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(96946): (vcom-1141) Identifier "cyclonev_hps_interface_fpga2hps" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(96984): (vcom-1141) Identifier "cyclonev_hps_interface_hps2fpga_light_weight" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(97001): (vcom-1141) Identifier "cyclonev_hps_interface_fpga2sdram" does not identify a component declaration.
+# ** Error (suppressible): hps_fpga_1.vho(97013): (vcom-1141) Identifier "cyclonev_hps_interface_interrupts" does not identify a component declaration.
+# ** Error: hps_fpga_1.vho(98234): VHDL Compiler exiting
+# End time: 11:36:18 on Nov 01,2018, Elapsed time: 0:00:01
+# Errors: 96, Warnings: 0
+# ** Error: C:/intelFPGA/17.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./hps_fpga_1_run_msim_gate_vhdl.do line 8
+# C:/intelFPGA/17.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {hps_fpga_1.vho}"
